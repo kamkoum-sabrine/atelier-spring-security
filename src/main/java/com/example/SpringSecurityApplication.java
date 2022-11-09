@@ -22,6 +22,7 @@ public class SpringSecurityApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		userRepository.save(new User("sabrine","password"));
 		
+		userRepository.save(new User("ADMIN","ADMIN"));
 	}
 	
 	
